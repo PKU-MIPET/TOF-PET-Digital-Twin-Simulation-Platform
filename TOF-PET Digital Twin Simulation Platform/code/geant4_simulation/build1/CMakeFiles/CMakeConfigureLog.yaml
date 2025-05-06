@@ -1,0 +1,721 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 5.14.0-362.8.1.el9_3.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /share/apps/gcc/13.3.0/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/3.26.5/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /share/apps/gcc/13.3.0/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/3.26.5/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ceb6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ceb6e.dir/build.make CMakeFiles/cmTC_ceb6e.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh'
+        Building C object CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -v -o CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/share/apps/gcc/13.3.0/bin/gcc
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c,c++,fortran --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/'
+         /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ceb6e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccA8isfK.s
+        GNU C17 (GCC) version 13.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include
+         /usr/local/include
+         /share/apps/gcc/13.3.0/include
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 52ae7c5f0f5caba49c02d4ed964f72a6
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o /tmp/ccA8isfK.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_ceb6e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb6e.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -o cmTC_ceb6e 
+        Using built-in specs.
+        COLLECT_GCC=/share/apps/gcc/13.3.0/bin/gcc
+        COLLECT_LTO_WRAPPER=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c,c++,fortran --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ceb6e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ceb6e.'
+         /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2 -plugin /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMnfsfs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ceb6e /lib/../lib64/crt1.o /lib/../lib64/crti.o /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../.. CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ceb6e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ceb6e.'
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+          add: [/usr/local/include]
+          add: [/share/apps/gcc/13.3.0/include]
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/share/apps/gcc/13.3.0/include] ==> [/share/apps/gcc/13.3.0/include]
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include;/usr/local/include;/share/apps/gcc/13.3.0/include;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ceb6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ceb6e.dir/build.make CMakeFiles/cmTC_ceb6e.dir/build]
+        ignore line: [gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xeBVVh']
+        ignore line: [Building C object CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/share/apps/gcc/13.3.0/bin/gcc   -v -o CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/share/apps/gcc/13.3.0/bin/gcc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c c++ fortran --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/']
+        ignore line: [ /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ceb6e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccA8isfK.s]
+        ignore line: [GNU C17 (GCC) version 13.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /share/apps/gcc/13.3.0/include]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 52ae7c5f0f5caba49c02d4ed964f72a6]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o /tmp/ccA8isfK.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_ceb6e]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb6e.dir/link.txt --verbose=1]
+        ignore line: [/share/apps/gcc/13.3.0/bin/gcc  -v -rdynamic CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -o cmTC_ceb6e ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/share/apps/gcc/13.3.0/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c c++ fortran --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_ceb6e' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ceb6e.']
+        link line: [ /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2 -plugin /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMnfsfs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ceb6e /lib/../lib64/crt1.o /lib/../lib64/crti.o /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../.. CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMnfsfs.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ceb6e] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o] ==> obj [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..]
+          arg [CMakeFiles/cmTC_ceb6e.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o] ==> obj [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64] ==> [/share/apps/gcc/13.3.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..] ==> [/share/apps/gcc/13.3.0/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0;/share/apps/gcc/13.3.0/lib64;/lib64;/usr/lib64;/share/apps/gcc/13.3.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_887fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_887fc.dir/build.make CMakeFiles/cmTC_887fc.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi'
+        Building CXX object CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o
+        /share/apps/gcc/13.3.0/bin/c++   -v -o CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/share/apps/gcc/13.3.0/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c,c++,fortran --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/'
+         /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_887fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxgeKbb.s
+        GNU C++17 (GCC) version 13.3.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/x86_64-pc-linux-gnu
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/backward
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include
+         /usr/local/include
+         /share/apps/gcc/13.3.0/include
+         /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: f4ccace4d2e999d4e7954bfb0f887347
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/'
+         as -v --64 -o CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxgeKbb.s
+        GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9
+        COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_887fc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_887fc.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_887fc 
+        Using built-in specs.
+        COLLECT_GCC=/share/apps/gcc/13.3.0/bin/c++
+        COLLECT_LTO_WRAPPER=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c,c++,fortran --disable-multilib
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (GCC) 
+        COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_887fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_887fc.'
+         /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2 -plugin /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccbmhbK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_887fc /lib/../lib64/crt1.o /lib/../lib64/crti.o /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../.. CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_887fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_887fc.'
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0]
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/x86_64-pc-linux-gnu]
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/backward]
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+          add: [/usr/local/include]
+          add: [/share/apps/gcc/13.3.0/include]
+          add: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0] ==> [/share/apps/gcc/13.3.0/include/c++/13.3.0]
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/x86_64-pc-linux-gnu] ==> [/share/apps/gcc/13.3.0/include/c++/13.3.0/x86_64-pc-linux-gnu]
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/backward] ==> [/share/apps/gcc/13.3.0/include/c++/13.3.0/backward]
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/share/apps/gcc/13.3.0/include] ==> [/share/apps/gcc/13.3.0/include]
+        collapse include dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/share/apps/gcc/13.3.0/include/c++/13.3.0;/share/apps/gcc/13.3.0/include/c++/13.3.0/x86_64-pc-linux-gnu;/share/apps/gcc/13.3.0/include/c++/13.3.0/backward;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include;/usr/local/include;/share/apps/gcc/13.3.0/include;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi]
+        ignore line: []
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_887fc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_887fc.dir/build.make CMakeFiles/cmTC_887fc.dir/build]
+        ignore line: [gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-b5eSQi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/share/apps/gcc/13.3.0/bin/c++   -v -o CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/share/apps/gcc/13.3.0/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c c++ fortran --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/']
+        ignore line: [ /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_887fc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxgeKbb.s]
+        ignore line: [GNU C++17 (GCC) version 13.3.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/x86_64-pc-linux-gnu]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../include/c++/13.3.0/backward]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /share/apps/gcc/13.3.0/include]
+        ignore line: [ /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f4ccace4d2e999d4e7954bfb0f887347]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxgeKbb.s]
+        ignore line: [GNU assembler version 2.35.2 (x86_64-redhat-linux) using BFD version version 2.35.2-42.el9]
+        ignore line: [COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_887fc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_887fc.dir/link.txt --verbose=1]
+        ignore line: [/share/apps/gcc/13.3.0/bin/c++  -v -rdynamic CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_887fc ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/share/apps/gcc/13.3.0/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/share/apps/gcc/13.3.0 --enable-checking=release --enable-languages=c c++ fortran --disable-multilib]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (GCC) ]
+        ignore line: [COMPILER_PATH=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_887fc' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_887fc.']
+        link line: [ /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2 -plugin /share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so -plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cccbmhbK.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_887fc /lib/../lib64/crt1.o /lib/../lib64/crti.o /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../.. CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o /lib/../lib64/crtn.o]
+          arg [/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/share/apps/gcc/13.3.0/libexec/gcc/x86_64-pc-linux-gnu/13.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cccbmhbK.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-export-dynamic] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_887fc] ==> ignore
+          arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+          arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+          arg [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o] ==> obj [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..] ==> dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..]
+          arg [CMakeFiles/cmTC_887fc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o] ==> obj [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o]
+          arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+        collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+        collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+        collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0] ==> [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../../../lib64] ==> [/share/apps/gcc/13.3.0/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/../../..] ==> [/share/apps/gcc/13.3.0/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib64/crt1.o;/lib64/crti.o;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtbegin.o;/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0/crtend.o;/lib64/crtn.o]
+        implicit dirs: [/share/apps/gcc/13.3.0/lib/gcc/x86_64-pc-linux-gnu/13.3.0;/share/apps/gcc/13.3.0/lib64;/lib64;/usr/lib64;/share/apps/gcc/13.3.0/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:292 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e1d9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1d9a.dir/build.make CMakeFiles/cmTC_e1d9a.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp'
+        Building C object CMakeFiles/cmTC_e1d9a.dir/src.c.o
+        /share/apps/gcc/13.3.0/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e1d9a.dir/src.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp/src.c
+        Linking C executable cmTC_e1d9a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1d9a.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc CMakeFiles/cmTC_e1d9a.dir/src.c.o -o cmTC_e1d9a 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-XOofHp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:498 (check_library_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib64/libX11.so;/usr/lib64/libXext.so"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_dca63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dca63.dir/build.make CMakeFiles/cmTC_dca63.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1'
+        Building C object CMakeFiles/cmTC_dca63.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_dca63.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1/CheckFunctionExists.c
+        Linking C executable cmTC_dca63
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dca63.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_dca63.dir/CheckFunctionExists.c.o -o cmTC_dca63  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-xJ9cI1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:513 (check_function_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_abfb5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abfb5.dir/build.make CMakeFiles/cmTC_abfb5.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG'
+        Building C object CMakeFiles/cmTC_abfb5.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_abfb5.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG/CheckFunctionExists.c
+        Linking C executable cmTC_abfb5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abfb5.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_abfb5.dir/CheckFunctionExists.c.o -o cmTC_abfb5 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-zQuhZG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:527 (check_function_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4dd53/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4dd53.dir/build.make CMakeFiles/cmTC_4dd53.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea'
+        Building C object CMakeFiles/cmTC_4dd53.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_4dd53.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea/CheckFunctionExists.c
+        Linking C executable cmTC_4dd53
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dd53.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_4dd53.dir/CheckFunctionExists.c.o -o cmTC_4dd53 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-rFpYea'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:536 (check_function_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d2787/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d2787.dir/build.make CMakeFiles/cmTC_d2787.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc'
+        Building C object CMakeFiles/cmTC_d2787.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_d2787.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc/CheckFunctionExists.c
+        Linking C executable cmTC_d2787
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2787.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_d2787.dir/CheckFunctionExists.c.o -o cmTC_d2787 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-Cc2tFc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:545 (check_function_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ed199/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ed199.dir/build.make CMakeFiles/cmTC_ed199.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK'
+        Building C object CMakeFiles/cmTC_ed199.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_ed199.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK/CheckFunctionExists.c
+        Linking C executable cmTC_ed199
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed199.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_ed199.dir/CheckFunctionExists.c.o -o cmTC_ed199 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-L6JNKK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/usr/share/cmake/Modules/FindX11.cmake:555 (check_library_exists)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Geant4Config.cmake:400 (find_dependency)"
+      - "CMakeLists.txt:14 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT"
+      binary: "/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/share/apps/geant4/11.1.2/MT/install/lib64/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT
+        
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_762b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_762b6.dir/build.make CMakeFiles/cmTC_762b6.dir/build
+        gmake[1]: Entering directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT'
+        Building C object CMakeFiles/cmTC_762b6.dir/CheckFunctionExists.c.o
+        /share/apps/gcc/13.3.0/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_762b6.dir/CheckFunctionExists.c.o -c /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT/CheckFunctionExists.c
+        Linking C executable cmTC_762b6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_762b6.dir/link.txt --verbose=1
+        /share/apps/gcc/13.3.0/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_762b6.dir/CheckFunctionExists.c.o -o cmTC_762b6  -lICE 
+        gmake[1]: Leaving directory '/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/CMakeScratch/TryCompile-IzKvoT'
+        
+      exitCode: 0
+...

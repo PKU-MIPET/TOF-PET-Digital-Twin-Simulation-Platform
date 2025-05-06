@@ -1,0 +1,8 @@
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/exampleB1.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/B1.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/edit_cache.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/rebuild_cache.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/list_install_components.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/install.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/install/local.dir
+/share/home/yywang/Simulation/code/Optical/Optical/temp/build1/CMakeFiles/install/strip.dir

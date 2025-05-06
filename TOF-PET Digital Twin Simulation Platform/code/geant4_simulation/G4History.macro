@@ -1,0 +1,13 @@
+/run/verbose 2
+/run/numberOfThreads 3
+/run/initialize
+/control/execute gpsn.mac
+/gps/particle gamma
+/gps/energy 1 MeV
+/gps/position -1 0 0 cm
+/gps/pos/type Point
+/gps/direction 1 0 0
+/gps/source/intensity 1
+/gps/source/list
+/run/printProgress 100
+/run/beamOn 1000

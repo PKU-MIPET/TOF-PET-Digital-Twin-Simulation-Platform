@@ -1,0 +1,97 @@
+# AmBeNeutronVertex.gps
+
+/gps/particle e-
+/gps/pos/type Plane
+
+/gps/pos/shape Rectangle
+
+
+/gps/pos/rot1 1 0 0
+
+/gps/pos/rot2 0 1 0
+
+/gps/pos/halfx 0.5 mm
+
+/gps/pos/halfy 0.5 mm
+
+/gps/pos/halfz 0.01 mm
+
+/gps/ene/type Arb
+/gps/hist/type arb
+#                E (MeV) Rel. Yield
+/gps/hist/point 0.0 0.015997
+/gps/hist/point 0.0001 0.016221
+/gps/hist/point 0.00011 0.016254
+/gps/hist/point 0.00012 0.016287
+/gps/hist/point 0.00013 0.016322
+/gps/hist/point 0.00014 0.016357
+/gps/hist/point 0.00015 0.016392
+/gps/hist/point 0.00016 0.016429
+/gps/hist/point 0.00018 0.016503
+/gps/hist/point 0.0002 0.016577
+/gps/hist/point 0.00022 0.016653
+/gps/hist/point 0.00024 0.016727
+/gps/hist/point 0.00026 0.016801
+/gps/hist/point 0.00028 0.016875
+/gps/hist/point 0.0003 0.016949
+/gps/hist/point 0.00032 0.017023
+/gps/hist/point 0.00036 0.017165
+/gps/hist/point 0.0004 0.017303
+/gps/hist/point 0.00045 0.017473
+/gps/hist/point 0.0005 0.017632
+/gps/hist/point 0.00055 0.017788
+/gps/hist/point 0.0006 0.017936
+/gps/hist/point 0.00065 0.018074
+/gps/hist/point 0.0007 0.018208
+/gps/hist/point 0.00075 0.018335
+/gps/hist/point 0.0008 0.018458
+/gps/hist/point 0.00085 0.018572
+/gps/hist/point 0.0009 0.018681
+/gps/hist/point 0.001 0.018884
+/gps/hist/point 0.0011 0.019067
+/gps/hist/point 0.0012 0.019228
+/gps/hist/point 0.0013 0.019374
+/gps/hist/point 0.0014 0.019505
+/gps/hist/point 0.0015 0.019622
+/gps/hist/point 0.0016 0.019719
+/gps/hist/point 0.0018 0.019875
+/gps/hist/point 0.002 0.019972
+/gps/hist/point 0.0022 0.02005
+/gps/hist/point 0.0024 0.020069
+/gps/hist/point 0.0026 0.020069
+/gps/hist/point 0.0028 0.020011
+/gps/hist/point 0.003 0.019953
+/gps/hist/point 0.0032 0.019855
+/gps/hist/point 0.0036 0.019583
+/gps/hist/point 0.004 0.019232
+/gps/hist/point 0.0045 0.018693
+/gps/hist/point 0.005 0.01806
+/gps/hist/point 0.0055 0.017354
+/gps/hist/point 0.006 0.016587
+/gps/hist/point 0.0065 0.015769
+/gps/hist/point 0.007 0.014915
+/gps/hist/point 0.0075 0.014031
+/gps/hist/point 0.008 0.013128
+/gps/hist/point 0.0085 0.012213
+/gps/hist/point 0.009 0.011292
+/gps/hist/point 0.01 0.009464
+/gps/hist/point 0.011 0.007693
+/gps/hist/point 0.012 0.006023
+/gps/hist/point 0.013 0.004489
+/gps/hist/point 0.014 0.003128
+/gps/hist/point 0.015 0.001976
+/gps/hist/point 0.016 0.001061
+/gps/hist/point 0.018 0.0000597
+/gps/hist/point 0.0186 0.0
+
+
+
+
+
+/gps/hist/inter Spline
+
+/gps/pos/centre 0 0 -0.25 cm
+/gps/direction 0 0 1
+#/control/execute vis.mac
+/run/printProgress 50000
+/run/beamOn 1000000

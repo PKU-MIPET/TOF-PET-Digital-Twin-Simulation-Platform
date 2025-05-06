@@ -1,0 +1,30 @@
+# Macro file for example B1
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+# Initialize kernel
+/custom/setOutputPath /share/home/yywang/Simulation/code/Optical/Optical/temp/build1/StepChecktest.txt
+/run/initialize
+#
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+
+#/process/inactivate compt
+#/process/inactivate conv
+# 
+# gamma 6 MeV to the direction (0.,0.,1.)
+#
+/gps/particle gamma
+/gps/energy 511 keV
+/gps/pos/type Point
+#/gps/pos/shape Cylinder
+/gps/position 0 0 -180 mm
+/gps/direction 0 0 1
+#
+/run/beamOn 10
